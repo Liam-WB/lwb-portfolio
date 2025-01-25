@@ -1,7 +1,9 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import web1 from "../assets/projects/web1.png"
+import web2 from "../assets/projects/web2.png"
+import web3 from "../assets/projects/web3.png"
+import web4 from "../assets/projects/web4.png"
+import web5 from "../assets/projects/web5.png"
+import web6 from "../assets/projects/web6.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React.js, as well as back-end technologies like Node.js, PostgreSQL, and django. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -19,32 +21,46 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Mindwars, interactive trivia game",
+    image: web1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Code Troopers presents 'Mindwars', an interactive Star Wars themed trivia quiz style game with a twist. This collaborative project was the runner up in the May 2024 Hackathon for Code Institute.",
+    technologies: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap v. 5.3", "Django"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Filmfeed, movie enthusist social media platform",
+    image: web2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Filmfeed is a movie enthuasiast's take on a social media website, made for all types of users who are interested in sharing their experience and journey in the world of cinematic media. This project contains a repository for the frontend and a custom made backend API.",
+    technologies: ["HTML", "CSS", "JavaScript", "React.js", "Python", "Django Rest Framework"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Traveluxe, property renting/booking hub",
+    image: web3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "Traveluxe is a django-based coherent and practical hub for renting out and booking properties and vacation homes.",
+    technologies: ["HTML", "CSS", "JavaScript", "Python"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: "VENUE Booker, command line data management app",
+    image: web4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "VENUE-Booker is a command-line data-management application, which runs via the code institute mock terminal on Heroku. Users can input, sort, replace and view common datasets in the form of venue seat booking amounts, stored and updated externally via a google spreadsheet.",
+    technologies: ["HTML", "Python", "JavaScript"],
+  },
+  {
+    title: "Quizology, interactive online studies resource",
+    image: web5,
+    description:
+      "This Website is a fully interective and responsive 'online studies' resource intended for those looking to test their knowledge in the desired study subject.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    title: "Hackney Coffee, frontend community business landing page",
+    image: web6,
+    description:
+      "This Website is made on the behalf of 'Hackney Coffee', a community made London based cafe.",
+    technologies: ["HTML", "CSS"],
   },
 ];
 
