@@ -65,7 +65,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "London, United Kingdom",
+  phoneNo: "+44 7884 966 071 ",
+  email: "liamwartnerblake@gmail.com",
 };
